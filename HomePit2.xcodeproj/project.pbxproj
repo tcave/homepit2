@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		520C4052196269B900996322 /* LightbulbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520C4051196269B900996322 /* LightbulbView.swift */; };
+		523B4CA319778C2400490C70 /* MetadataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523B4CA219778C2400490C70 /* MetadataView.swift */; };
 		52492C551960FA7500CC6A52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52492C541960FA7500CC6A52 /* AppDelegate.swift */; };
 		52492C571960FA7500CC6A52 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52492C561960FA7500CC6A52 /* MasterViewController.swift */; };
-		52492C591960FA7500CC6A52 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52492C581960FA7500CC6A52 /* DetailViewController.swift */; };
 		52492C5C1960FA7500CC6A52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52492C5A1960FA7500CC6A52 /* Main.storyboard */; };
 		52492C5E1960FA7500CC6A52 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52492C5D1960FA7500CC6A52 /* Images.xcassets */; };
 		52492C6A1960FA7500CC6A52 /* HomePit2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52492C691960FA7500CC6A52 /* HomePit2Tests.swift */; };
+		52492C741960FA8C00CC6A52 /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52492C731960FA8C00CC6A52 /* HomeKit.framework */; };
+		52FB11D5196118E60024F84B /* MainViewControlller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB11D4196118E60024F84B /* MainViewControlller.swift */; };
+		B15582C8196B9F4D00B61F2C /* Dollar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15582C7196B9F4D00B61F2C /* Dollar.swift */; };
+		B15582CA196B9F9700B61F2C /* FindAccessoriesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15582C9196B9F9700B61F2C /* FindAccessoriesController.swift */; };
+		B17CADAB196BA311007081FD /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17CADAA196BA311007081FD /* DetailTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +32,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		520C4051196269B900996322 /* LightbulbView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightbulbView.swift; sourceTree = "<group>"; };
+		523B4CA219778C2400490C70 /* MetadataView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetadataView.swift; sourceTree = "<group>"; };
 		52492C4F1960FA7500CC6A52 /* HomePit2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomePit2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52492C531960FA7500CC6A52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52492C541960FA7500CC6A52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52492C561960FA7500CC6A52 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		52492C581960FA7500CC6A52 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		52492C5B1960FA7500CC6A52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52492C5D1960FA7500CC6A52 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		52492C631960FA7500CC6A52 /* HomePit2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomePit2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52492C681960FA7500CC6A52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52492C691960FA7500CC6A52 /* HomePit2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePit2Tests.swift; sourceTree = "<group>"; };
+		52492C731960FA8C00CC6A52 /* HomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HomeKit.framework; path = System/Library/Frameworks/HomeKit.framework; sourceTree = SDKROOT; };
+		52FB11D4196118E60024F84B /* MainViewControlller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewControlller.swift; sourceTree = "<group>"; };
+		B15582C7196B9F4D00B61F2C /* Dollar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dollar.swift; sourceTree = "<group>"; };
+		B15582C9196B9F9700B61F2C /* FindAccessoriesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindAccessoriesController.swift; sourceTree = "<group>"; };
+		B17CADAA196BA311007081FD /* DetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52492C741960FA8C00CC6A52 /* HomeKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +72,7 @@
 		52492C461960FA7500CC6A52 = {
 			isa = PBXGroup;
 			children = (
+				52492C731960FA8C00CC6A52 /* HomeKit.framework */,
 				52492C511960FA7500CC6A52 /* HomePit2 */,
 				52492C661960FA7500CC6A52 /* HomePit2Tests */,
 				52492C501960FA7500CC6A52 /* Products */,
@@ -77,12 +91,17 @@
 		52492C511960FA7500CC6A52 /* HomePit2 */ = {
 			isa = PBXGroup;
 			children = (
+				B15582C9196B9F9700B61F2C /* FindAccessoriesController.swift */,
+				B15582C7196B9F4D00B61F2C /* Dollar.swift */,
 				52492C541960FA7500CC6A52 /* AppDelegate.swift */,
 				52492C561960FA7500CC6A52 /* MasterViewController.swift */,
-				52492C581960FA7500CC6A52 /* DetailViewController.swift */,
 				52492C5A1960FA7500CC6A52 /* Main.storyboard */,
 				52492C5D1960FA7500CC6A52 /* Images.xcassets */,
 				52492C521960FA7500CC6A52 /* Supporting Files */,
+				52FB11D4196118E60024F84B /* MainViewControlller.swift */,
+				520C4051196269B900996322 /* LightbulbView.swift */,
+				B17CADAA196BA311007081FD /* DetailTableViewController.swift */,
+				523B4CA219778C2400490C70 /* MetadataView.swift */,
 			);
 			path = HomePit2;
 			sourceTree = "<group>";
@@ -161,6 +180,12 @@
 				TargetAttributes = {
 					52492C4E1960FA7500CC6A52 = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 9X3H9234E9;
+						SystemCapabilities = {
+							com.apple.HomeKit = {
+								enabled = 1;
+							};
+						};
 					};
 					52492C621960FA7500CC6A52 = {
 						CreatedOnToolsVersion = 6.0;
@@ -168,7 +193,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 52492C4A1960FA7500CC6A52 /* Build configuration list for PBXProject "HomePit2" */;
+			buildConfigurationList = 52492C4A1960FA7500CC6A52 /* Build configuration list for PBXProject "homepit2" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -211,9 +236,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52492C591960FA7500CC6A52 /* DetailViewController.swift in Sources */,
+				B15582CA196B9F9700B61F2C /* FindAccessoriesController.swift in Sources */,
+				520C4052196269B900996322 /* LightbulbView.swift in Sources */,
 				52492C571960FA7500CC6A52 /* MasterViewController.swift in Sources */,
+				523B4CA319778C2400490C70 /* MetadataView.swift in Sources */,
+				B17CADAB196BA311007081FD /* DetailTableViewController.swift in Sources */,
 				52492C551960FA7500CC6A52 /* AppDelegate.swift in Sources */,
+				52FB11D5196118E60024F84B /* MainViewControlller.swift in Sources */,
+				B15582C8196B9F4D00B61F2C /* Dollar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,9 +361,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c11;
 				INFOPLIST_FILE = HomePit2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -342,9 +381,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c11;
 				INFOPLIST_FILE = HomePit2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -387,7 +434,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		52492C4A1960FA7500CC6A52 /* Build configuration list for PBXProject "HomePit2" */ = {
+		52492C4A1960FA7500CC6A52 /* Build configuration list for PBXProject "homepit2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52492C6B1960FA7500CC6A52 /* Debug */,
@@ -403,6 +450,7 @@
 				52492C6F1960FA7500CC6A52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52492C701960FA7500CC6A52 /* Build configuration list for PBXNativeTarget "HomePit2Tests" */ = {
 			isa = XCConfigurationList;
@@ -411,6 +459,7 @@
 				52492C721960FA7500CC6A52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
