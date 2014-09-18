@@ -12,13 +12,13 @@ import HomeKit
 class MasterViewController: UITableViewController, HMHomeManagerDelegate, HMHomeDelegate {
 
     var detailViewController: DetailTableViewController? = nil
-    var accessories: HMAccessory[] = []
+    var accessories: [HMAccessory] = []
     var home: HMHome? = nil {
     didSet {
         if let home = self.home {
             home.delegate = self
             println("home delegate: \(home.delegate)")
-            self.accessories = home.accessories.map({ return $0 as HMAccessory }) as HMAccessory[]
+            self.accessories = home.accessories.map({ return $0 as HMAccessory }) as [HMAccessory]
             self.tableView.reloadData()
         }
     }
@@ -68,7 +68,7 @@ class MasterViewController: UITableViewController, HMHomeManagerDelegate, HMHome
     override func prepareForSegue(segue: UIStoryboardSegue?, sender: AnyObject?) {
         if segue?.identifier == "showDetail" {
             let indexPath = self.tableView.indexPathForSelectedRow()
-            let acc = self.accessories[indexPath.row] as HMAccessory
+            let acc = self.accessories[indexPath!.row] as HMAccessory
             ((segue!.destinationViewController as UINavigationController).topViewController as DetailTableViewController).detailItem = acc
         } else if segue?.identifier == "findAccessories" {
             let controller = ((segue!.destinationViewController as UINavigationController).topViewController as FindAccessoriesController)
@@ -96,7 +96,7 @@ class MasterViewController: UITableViewController, HMHomeManagerDelegate, HMHome
         cell.selectedBackgroundView = bgColorView
 
         let acc = self.home!.accessories[indexPath.row] as HMAccessory
-        cell.textLabel.text = acc.name
+        cell.textLabel?.text = acc.name
         return cell
     }
 

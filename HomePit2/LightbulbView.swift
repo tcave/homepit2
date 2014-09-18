@@ -9,14 +9,14 @@
 import UIKit
 import HomeKit
 
-func genLineConstraints(label: UILabel, control: UIControl) -> AnyObject[]! {
+func genLineConstraints(label: UILabel, control: UIControl) -> [AnyObject]! {
     let viewsDict = ["label": label, "control": control]
     return NSLayoutConstraint.constraintsWithVisualFormat(LINE_LAYOUT, options: NSLayoutFormatOptions(0), metrics: nil, views: viewsDict)
 }
 
 extension HMService {
     func findCharacteristic(name: String) -> HMCharacteristic? {
-        for cha in self.characteristics as HMCharacteristic[] {
+        for cha in self.characteristics as [HMCharacteristic] {
             if cha.characteristicType == name {
                 return cha
             }

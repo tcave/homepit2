@@ -180,7 +180,7 @@
 				TargetAttributes = {
 					52492C4E1960FA7500CC6A52 = {
 						CreatedOnToolsVersion = 6.0;
-						DevelopmentTeam = 9X3H9234E9;
+						DevelopmentTeam = TLEVLB8B5D;
 						SystemCapabilities = {
 							com.apple.HomeKit = {
 								enabled = 1;
@@ -193,7 +193,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 52492C4A1960FA7500CC6A52 /* Build configuration list for PBXProject "homepit2" */;
+			buildConfigurationList = 52492C4A1960FA7500CC6A52 /* Build configuration list for PBXProject "HomePit2" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -434,7 +434,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		52492C4A1960FA7500CC6A52 /* Build configuration list for PBXProject "homepit2" */ = {
+		52492C4A1960FA7500CC6A52 /* Build configuration list for PBXProject "HomePit2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52492C6B1960FA7500CC6A52 /* Debug */,

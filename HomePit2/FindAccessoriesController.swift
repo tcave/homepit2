@@ -13,7 +13,7 @@ class FindAccessoriesController: UITableViewController, HMAccessoryBrowserDelega
     
     var home: HMHome! = nil
     var addedAccessoryHandler: ((HMAccessory) -> Void)! = nil
-    var accessories: HMAccessory[] = []
+    var accessories: [HMAccessory] = []
     var accessoryBrowser = HMAccessoryBrowser()
     
     
